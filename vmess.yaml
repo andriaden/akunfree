@@ -49,3 +49,20 @@ proxies:
       Host: sg-1.0rd.net
   xudp: true
   key: value
+
+- name: 🇸🇬OPENTUNNEL.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  alterId: 16
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /opentunnel?user=opentunnel.net-lemas
+    headers:
+      Host: idv-3.openv2ray.com
+  xudp: true
+  key: value
