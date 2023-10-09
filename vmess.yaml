@@ -1,0 +1,49 @@
+proxies:
+- name: 🇸🇬SSHMax.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: d2685849-ca8f-49ae-980f-3d0de8bee177
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg1-v.sshmax.xyz
+  xudp: true
+  key: value
+  - name: 🇸🇬FASTSSH.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 2622a060-6663-11ee-b835-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ndkgzct5
+    headers:
+      Host: id-1.0rd.net
+  xudp: true
+  key: value
+    - name: 🇸🇬FASTSSH.2
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 8ba55bd0-6663-11ee-b137-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /76ayuqnr
+    headers:
+      Host: sg-1.0rd.net
+  xudp: true
+  key: value
