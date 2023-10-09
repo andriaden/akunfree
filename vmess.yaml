@@ -1,4 +1,83 @@
 proxies:
+#========= VMESS =========
+- name: 🇮🇩 ✨ FREE.1
+  type: vmess
+  server: circles.asia
+  port: 80
+  uuid: 71884af4-40a3-4037-866b-dab578b2a56e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: vip05.globalssh.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: vip05.globalssh.com
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+#========= VMESS =========
+- name: 🇮🇩 ✨ FREE.2
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 8301712c-4845-499b-bb31-6be6e96c4d75
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: sg4-linode.nexsusvpn.me
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts: 
+    path: /vmess
+    headers: 
+      Host: sg4-linode.nexsusvpn.me
+  #interface-name: eth2
+#========= VMESS =========
+- name: 🇮🇩 ✨ FREE.3
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 89ad50ce-bb39-4755-b16a-e5e41bfe259f
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: sg-vmess.greenssh.xyz
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts: 
+    path: /vmess
+    headers: 
+      Host: sg-vmess.greenssh.xyz
+  #interface-name: eth2
+#========= VMESS =========
+- name: 🇮🇩 ✨ FREE.4
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 7b4f3f64-f14b-4eed-960d-c63d1ab20659
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: id2.securev2ray.com
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts: 
+    path: /vmess
+    headers: 
+      Host: id2.securev2ray.com
+  #interface-name: eth2
 - name: 🇸🇬SSHMax.1
   server: circles.asia
   port: 80
