@@ -15,7 +15,7 @@ proxies:
       Host: sg1-v.sshmax.xyz
   xudp: true
   key: value
-  - name: 🇸🇬FASTSSH.1
+- name: 🇸🇬FASTSSH.1
   server: circles.asia
   port: 80
   type: vmess
@@ -31,7 +31,7 @@ proxies:
       Host: id-1.0rd.net
   xudp: true
   key: value
-  - name: 🇸🇬FASTSSH.2
+- name: 🇸🇬FASTSSH.2
   server: circles.asia
   port: 80
   type: vmess
