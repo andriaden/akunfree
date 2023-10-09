@@ -1,5 +1,5 @@
 proxies:
-#========= VMESS =========
+#========= VMESS ========
 - name: 🇮🇩 ✨ FREE.1
   type: vmess
   server: circles.asia
