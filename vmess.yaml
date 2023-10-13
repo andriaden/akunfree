@@ -92,6 +92,23 @@ proxies:
       Host: sgdo23.premiumdns.my.id
   xudp: true
   key: value
+#========= VMESS =========
+- name: 🇸🇬 Sniff.2
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: f2e0c0de-7edc-4f6b-90ec-f0c929404092
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: vip2.vipme.my.id
+  xudp: true
+  key: value
 #========= VMESS =========  
 - name: 🇮🇩 SSHOCEAN.1
   server: circles.asia
