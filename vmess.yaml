@@ -59,7 +59,7 @@ proxies:
       Host: id2.securev2ray.com
   #interface-name: eth2
 #========= VMESS =========  
-- name: 🇸🇬SSHMax.1
+- name: 🇸🇬 SSHMax.1
   server: circles.asia
   port: 80
   type: vmess
@@ -195,7 +195,7 @@ proxies:
   xudp: true
   key: value
 #========= VMESS =========
-- name: 🇸🇬OPENTUNNEL.1
+- name: 🇸🇬 OPENTUNNEL.1
   server: circles.asia
   port: 80
   type: vmess
