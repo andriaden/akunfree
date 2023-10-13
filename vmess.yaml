@@ -39,26 +39,6 @@ proxies:
       Host: sg4-linode.nexsusvpn.me
   #interface-name: eth2
 #========= VMESS =========
-- name: 🇮🇩 ✨ FREE.3
-  server: circles.asia
-  port: 80
-  type: vmess
-  uuid: 89ad50ce-bb39-4755-b16a-e5e41bfe259f
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: sg-vmess.greenssh.xyz
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts: 
-    path: /vmess
-    headers: 
-      Host: sg-vmess.greenssh.xyz
-  #interface-name: eth2
-#========= VMESS =========
 - name: 🇮🇩 ✨ FREE.4
   server: circles.asia
   port: 80
@@ -181,20 +161,20 @@ proxies:
   xudp: true
   key: value  
 #========= VMESS =========  
-- name: 🇸🇬FASTSSH.2
+- name: 🇸🇬 LIONSSH.1
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 8ba55bd0-6663-11ee-b137-205c6d5f5d78
+  uuid: ccff36aa-8d21-42ed-854b-bfa6062a4cfd
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /76ayuqnr
+    path: /v2ray-vmess/ntls
     headers:
-      Host: sg-1.0rd.net
+      Host: sg.serverfast.pw
   xudp: true
   key: value
 #========= VMESS =========
