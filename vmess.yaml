@@ -228,3 +228,37 @@ proxies:
       Host: sg1-vmess.greenssh.xyz
   xudp: true
   key: value
+#========= VMESS =========  
+- name: 🇸🇬 ServerSSH.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 9b087772-4402-4029-9c33-caff31d85c4a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: sgm2ray.serverip.my.id
+  xudp: true
+  key: value
+#========= VMESS =========  
+- name: 🇸🇬 GarudaSSH.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: cb572545-98a8-4e83-b051-1f933b47ed5e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg3.createv2ray.com
+  xudp: true
+  key: value
