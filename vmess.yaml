@@ -177,6 +177,23 @@ proxies:
       Host: sg.serverfast.pw
   xudp: true
   key: value
+#========= VMESS =========  
+- name: 🇸🇬 LIONSSH.2
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: d5326c4a-aa03-4572-8682-19847f62e150
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2ray-vmess/ntls
+    headers:
+      Host: sg.serverfast.pw
+  xudp: true
+  key: value
 #========= VMESS =========
 - name: 🇸🇬OPENTUNNEL.1
   server: circles.asia
