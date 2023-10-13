@@ -211,3 +211,20 @@ proxies:
       Host: idv-3.openv2ray.com
   xudp: true
   key: value
+#========= VMESS =========  
+- name: 🇸🇬 GreenSSH.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: eefe1fe6-9638-48a5-8328-aa9c714d2461
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg1-vmess.greenssh.xyz
+  xudp: true
+  key: value
