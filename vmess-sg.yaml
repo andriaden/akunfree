@@ -1,10 +1,10 @@
 proxies:
 #========= VMESS =========
-- name: 🇸🇬 Sniff.1
+- name: 🇸🇬 GarudaSSH.1
   server: circles.asia
   port: 80
   type: vmess
-  uuid: c5bfb887-710c-4109-aa0b-e41278ae3110
+  uuid: 15c5c672-5869-4f9a-b47a-b337c841cee6
   alterId: 0
   cipher: auto
   tls: false
@@ -13,6 +13,57 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sgdo23.premiumdns.my.id
+      Host: sg4.createv2ray.com
+  xudp: true
+  key: value
+#========= VMESS =========
+- name: 🇸🇬 SSHmax.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: f71e5635-90bb-4150-b113-086c70a0055c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-v.sshmax.xyz
+  xudp: true
+  key: value
+#========= VMESS =========
+- name: 🇸🇬 GreenSSH.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 14385ed3-a2c0-4985-b93e-14b1df8bcc98
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-vmess.greenssh.xyz
+  xudp: true
+  key: value
+#========= VMESS =========
+- name: 🇸🇬 RaceSSH.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: cc1e569d-cb62-4768-b2cc-e27077597e94
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /racevpn
+    headers:
+      Host: sg2-full.privateip.net
   xudp: true
   key: value
