@@ -1,2 +1,18 @@
 proxies:
-
+#========= VMESS =========
+- name: 🇸🇬 Sniff.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: c5bfb887-710c-4109-aa0b-e41278ae3110
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sgdo23.premiumdns.my.id
+  xudp: true
+  key: value
