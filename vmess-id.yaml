@@ -1,6 +1,6 @@
 proxies:
 #========= VMESS =========
-- name: 🇸🇬 Sniff.1
+- name: 🇮🇩 Sniff.1
   server: circles.asia
   port: 80
   type: vmess
