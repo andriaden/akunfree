@@ -1,10 +1,10 @@
 proxies:
 #========= VMESS =========
-- name: 🇮🇩 Sniff.1
+- name: 🇮🇩 SSHMAX.1
   server: circles.asia
   port: 80
   type: vmess
-  uuid: c5bfb887-710c-4109-aa0b-e41278ae3110
+  uuid: 0bf3e885-c154-4d00-b574-15b52a915f5b
   alterId: 0
   cipher: auto
   tls: false
@@ -13,6 +13,23 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sgdo23.premiumdns.my.id
+      Host: id-v.sshmax.xyz
+  xudp: true
+  key: value
+#========= VMESS =========
+- name: 🇮🇩 ServerSSH.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 7265614d-12cf-4da3-b925-60f13a66bc79
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: idray.serverip.my.id
   xudp: true
   key: value
