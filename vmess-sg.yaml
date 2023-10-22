@@ -38,7 +38,7 @@ proxies:
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 14385ed3-a2c0-4985-b93e-14b1df8bcc98
+  uuid: e2160124-6b00-4310-905d-b98e28819dd5
   alterId: 0
   cipher: auto
   tls: false
