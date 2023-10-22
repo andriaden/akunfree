@@ -4,7 +4,7 @@ proxies:
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 15c5c672-5869-4f9a-b47a-b337c841cee6
+  uuid: b6c51996-078f-4c05-9a84-351f550aa873
   alterId: 0
   cipher: auto
   tls: false
@@ -13,7 +13,7 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sg4.createv2ray.com
+      Host: sg3.createv2ray.com
   xudp: true
   key: value
 #========= VMESS =========
