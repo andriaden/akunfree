@@ -55,7 +55,7 @@ proxies:
   server: circles.asia
   port: 80
   type: vmess
-  uuid: cc1e569d-cb62-4768-b2cc-e27077597e94
+  uuid: 2b104bcf-495a-498b-8b68-24e17f54433e
   alterId: 0
   cipher: auto
   tls: false
@@ -64,6 +64,6 @@ proxies:
   ws-opts:
     path: /racevpn
     headers:
-      Host: sg2-full.privateip.net
+      Host: sg3-full.privateip.net
   xudp: true
   key: value
