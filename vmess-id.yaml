@@ -35,11 +35,11 @@ proxies:
     headers:
       Host: id2.xv2ray.net
 #========= VMESS =========
-- name: 🇮🇩 ServerSSH.1
+- name: 🇮🇩 FastSSH.1
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 7265614d-12cf-4da3-b925-60f13a66bc79
+  uuid: d416c270-7155-11ee-b436-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
@@ -47,6 +47,6 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /serverssh.net
+    path: /g3adytbf
     headers:
-      Host: idray.serverip.my.id
+      Host: id-1.0rd.net
