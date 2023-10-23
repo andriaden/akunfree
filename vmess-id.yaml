@@ -19,22 +19,21 @@ proxies:
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
 #========= VMESS =========
-- name: 🇮🇩 SSHMAX.1
+- name: 🇮🇩 SSHOCEAN.1
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 0bf3e885-c154-4d00-b574-15b52a915f5b
+  uuid: 5e1939ab-b08b-4434-a64a-24dbb7ae082b
   alterId: 0
   cipher: auto
+  udp: true
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: id-v.sshmax.xyz
-  xudp: true
-  key: value
+      Host: id2.xv2ray.net
 #========= VMESS =========
 - name: 🇮🇩 ServerSSH.1
   server: circles.asia
@@ -43,6 +42,7 @@ proxies:
   uuid: 7265614d-12cf-4da3-b925-60f13a66bc79
   alterId: 0
   cipher: auto
+  udp: true
   tls: false
   skip-cert-verify: false
   network: ws
@@ -50,5 +50,3 @@ proxies:
     path: /serverssh.net
     headers:
       Host: idray.serverip.my.id
-  xudp: true
-  key: value
