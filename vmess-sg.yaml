@@ -52,7 +52,7 @@ proxies:
   server: circles.asia
   port: 80
   type: vmess
-  uuid: e81da4b1-e6fa-42dd-8d15-1de0d99f77c6
+  uuid: 0456755c-ef6d-4e04-8c26-c66339db56da
   alterId: 0
   cipher: auto
   udp: true
@@ -60,6 +60,6 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /vmess
     headers:
-      Host: 91.107.183.37
+      Host: dynamic-sg2b.obfs.xyz
