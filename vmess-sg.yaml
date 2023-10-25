@@ -95,3 +95,19 @@ proxies:
     path: /vmess
     headers:
       Host: 8n4i.alftunneling.my.id
+#========= VMESS =========
+- name: 🇸🇬 Sniff.4
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 727bd413-5eec-4415-94e9-e1486ca8335e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg.vmess7.xservs.xyz
