@@ -48,7 +48,7 @@ proxies:
     headers:
       Host: sg-3.0rd.net
 #========= VMESS =========
-- name: 🇸🇬 Free.1
+- name: 🇸🇬 Sniff.1
   server: circles.asia
   port: 80
   type: vmess
@@ -63,3 +63,35 @@ proxies:
     path: /vmess
     headers:
       Host: dynamic-sg2b.obfs.xyz
+#========= VMESS =========
+- name: 🇸🇬 Sniff.2
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 5f8085ea-1dc9-4054-bef0-3ae7bf217108
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg3.xv2ray.net
+#========= VMESS =========
+- name: 🇸🇬 Sniff.3
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: 29a51721-4491-4234-9b4c-ec12be7dff86
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 8n4i.alftunneling.my.id
