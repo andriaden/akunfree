@@ -47,3 +47,19 @@ proxies:
     path: /akfp8nzh
     headers:
       Host: sg-3.0rd.net
+#========= VMESS =========
+- name: 🇸🇬 Free.1
+  server: circles.asia
+  port: 80
+  type: vmess
+  uuid: e81da4b1-e6fa-42dd-8d15-1de0d99f77c6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 91.107.183.37
