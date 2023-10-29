@@ -68,7 +68,7 @@ proxies:
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 5f8085ea-1dc9-4054-bef0-3ae7bf217108
+  uuid: 19130e7b-bdb7-47c8-98f6-65035999acd8
   alterId: 0
   cipher: auto
   udp: true
@@ -78,7 +78,7 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sg3.xv2ray.net
+      Host: caramel-vvip.premiumserver.link
 #========= VMESS =========
 - name: 🇸🇬 Sniff.3
   server: circles.asia
