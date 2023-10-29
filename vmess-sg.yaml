@@ -84,7 +84,7 @@ proxies:
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 29a51721-4491-4234-9b4c-ec12be7dff86
+  uuid: 956ffd3c-5c51-4ee8-bb8a-f19bc10ce392
   alterId: 0
   cipher: auto
   udp: true
@@ -94,7 +94,7 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: 8n4i.alftunneling.my.id
+      Host: belajarbahasayuk.my.id
 #========= VMESS =========
 - name: 🇸🇬 Sniff.4
   server: circles.asia
