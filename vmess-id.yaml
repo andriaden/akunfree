@@ -1,23 +1,4 @@
 proxies:
-#========= VMESS ========
-- name: 🇮🇩 ✨ GlobalSSH
-  type: vmess
-  server: circles.asia
-  port: 80
-  uuid: 71884af4-40a3-4037-866b-dab578b2a56e
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  servername: vip05.globalssh.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: vip05.globalssh.com
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
 #========= VMESS =========
 - name: 🇮🇩 SSHOCEAN.1
   server: circles.asia
