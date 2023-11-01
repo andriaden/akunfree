@@ -1,10 +1,10 @@
 proxies:
 #========= VMESS =========
-- name: 🇸🇬 GarudaSSH.1
+- name: 🇸🇬 OPENTUNNEL.1
   server: circles.asia
   port: 80
   type: vmess
-  uuid: b6c51996-078f-4c05-9a84-351f550aa873
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
   alterId: 0
   cipher: auto
   udp: true
@@ -12,15 +12,15 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /opentunnel?user=opentunnel.net-kacrut
     headers:
-      Host: sg3.createv2ray.com
+      Host: sgv-3.openv2ray.com
 #========= VMESS =========
-- name: 🇸🇬 FastSSH.1
+- name: 🇸🇬 OPENTUNNEL.2
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 82edd490-7156-11ee-b935-205c6d5f5d78
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
   alterId: 0
   cipher: auto
   udp: true
@@ -28,9 +28,24 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /3q82i4yv
+    path: /opentunnel?user=opentunnel.net-lambe
     headers:
-      Host: sg-8.0rd.net
+      Host: sgv-1.openv2ray.com
+#========= VLESS =========
+- name: 🇸🇬 OPENTUNNEL.3
+  server: circles.asia
+  port: 80
+  type: vless
+  uuid: 4f17e173-4af9-5041-9662-f6c27e0decfd
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /opentunnel?user=opentunnel.net-toelb
+    headers:
+      Host: idx-1.openv2ray.com
 #========= VMESS =========
 - name: 🇸🇬 FastSSH.2
   server: circles.asia
