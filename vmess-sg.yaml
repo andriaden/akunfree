@@ -115,7 +115,7 @@ proxies:
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 727bd413-5eec-4415-94e9-e1486ca8335e
+  uuid: d1a1896e-6649-412c-8da7-ff6bce979d30
   alterId: 0
   cipher: auto
   udp: true
@@ -123,6 +123,6 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmess-ws
     headers:
-      Host: sg.vmess7.xservs.xyz
+      Host: faiqzuhry.eu.org
