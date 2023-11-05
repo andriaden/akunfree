@@ -47,11 +47,11 @@ proxies:
     headers:
       Host: idx-1.openv2ray.com
 #========= VMESS =========
-- name: 🇸🇬 FastSSH.2
+- name: 🇸🇬 GarudaSSH.2
   server: circles.asia
   port: 80
   type: vmess
-  uuid: e31613f0-7156-11ee-b339-205c6d5f5d78
+  uuid: 571f24b9-9fb6-4e7e-8df4-3bbada1ac319
   alterId: 0
   cipher: auto
   udp: true
@@ -59,9 +59,9 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /akfp8nzh
+    path: /vmess
     headers:
-      Host: sg-3.0rd.net
+      Host: sg3.createv2ray.com
 #========= VMESS =========
 - name: 🇸🇬 Sniff.1
   server: circles.asia
