@@ -1,10 +1,10 @@
 proxies:
 #========= VMESS =========
-- name: 🇮🇩 SSHOCEAN.1
+- name: 🇮🇩 FreeGlobalSSH.1
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 5e1939ab-b08b-4434-a64a-24dbb7ae082b
+  uuid: ce00bf60-05d3-4e46-ad45-e75256290ecd
   alterId: 0
   cipher: auto
   udp: true
@@ -12,15 +12,15 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmess-ws
     headers:
-      Host: id2.xv2ray.net
+      Host: 103.180.124.91
 #========= VMESS =========
-- name: 🇮🇩 FastSSH.1
+- name: 🇮🇩 FreeGlobalSSH.2
   server: circles.asia
   port: 80
   type: vmess
-  uuid: d416c270-7155-11ee-b436-205c6d5f5d78
+  uuid: 8992d498-8368-4fda-bb0a-42841bbeebe0
   alterId: 0
   cipher: auto
   udp: true
@@ -28,6 +28,6 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /g3adytbf
+    path: /vmess-ws
     headers:
-      Host: id-1.0rd.net
+      Host: 103.163.160.46
