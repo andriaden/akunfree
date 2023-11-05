@@ -79,11 +79,11 @@ proxies:
     headers:
       Host: dynamic-sg2b.obfs.xyz
 #========= VMESS =========
-- name: 🇸🇬 Sniff.2
+- name: 🇸🇬 GarudaSSH.1
   server: circles.asia
   port: 80
   type: vmess
-  uuid: 19130e7b-bdb7-47c8-98f6-65035999acd8
+  uuid: b0cfa4f7-8095-4fb0-8f8c-19d9cc487177
   alterId: 0
   cipher: auto
   udp: true
@@ -93,7 +93,7 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: caramel-vvip.premiumserver.link
+      Host: sg2.createv2ray.com
 #========= VMESS =========
 - name: 🇸🇬 Sniff.3
   server: circles.asia
