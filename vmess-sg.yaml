@@ -110,19 +110,19 @@ proxies:
     path: /vmess
     headers:
       Host: kangsantritunelling.unifi.my.id
-#========= VMESS =========
-- name: 🇸🇬 Sniff.4
-  server: circles.asia
-  port: 80
-  type: vmess
-  uuid: d1a1896e-6649-412c-8da7-ff6bce979d30
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: faiqzuhry.eu.org
+#========= VLESS =========
+- name: 🇸🇬 Sniff.3 [VLESS - ws] nonTLS
+    server: circles.asia
+    port: 80
+    type: vless
+    uuid: 51e8eb23-4ca5-4984-91f7-473daa3e5124
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: edypler.lunoxx.gay
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: edypler.lunoxx.gay
+    udp: true
